@@ -9,7 +9,7 @@ import pandas as pd
 import requests
 import re
 
-SPREADSHEET_ID = '198xSnCkdUeHNvoytoUzZORVA8aJpcVDgSHNuGp1WWUg'
+SPREADSHEET_ID = ''
 scope = ['https://www.googleapis.com/auth/spreadsheets']
 SERVICE_ACCOUNT_FILE = 'creds.json'
 creds = service_account.Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes=scope)

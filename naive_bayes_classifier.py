@@ -3,7 +3,7 @@ import seaborn as sns
 import data_for_training
 import pickle
 import pandas as pd
-from sklearn.metrics import roc_auc_score,roc_curve,classification_report,confusion_matrix,plot_confusion_matrix
+from sklearn.metrics import classification_report,confusion_matrix
 
 articleSection_target_dict,X_train_tfidf, X_test_tfidf,y_train,y_test,count_vect,tfidf_transformer = data_for_training.prepare_data_for_training()
 def fit_model():

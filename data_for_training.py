@@ -4,7 +4,6 @@ from sklearn.feature_extraction.text import TfidfTransformer
 import data_cleaning
 import pandas as pd
 import numpy as np
-import pickle
 
 def count_vectorizer(X_train: pd.core.series.Series ,X_test : pd.core.series.Series):
     count_vect = CountVectorizer()

@@ -1,8 +1,6 @@
 from flask import Flask,jsonify,request
-#from flask_restful import Resource, Api
 import pickle
 from joblib import load
-from typing import Dict
 import pandas as pd
 
 
@@ -47,44 +45,6 @@ def create_prediction(option):
     request_data = request.get_json()
     article_body = request_data['article_body']
     return create_option(option=option,article_body=article_body)
-
-
-
-""""
-
-class ArticleInfo(Resource):
-    def get(self,option:str,article_body)-> Dict:
-        if option == 'Multinominal Naive Bayes':
-            clf_model = pickle.load(open('model_folder/model_mulinominalnb.sav', 'rb'))
-            count_vectorizer = pickle.load(open('model_folder/count_vectorizer.pickle', 'rb'))
-            tfidf_transformer = pickle.load(open('model_folder/tfidf_transformer.pickle', 'rb'))
-            count_vectorizer_data = count_vectorizer.transform(article_body)
-            tfidf_data = tfidf_transformer.transform(count_vectorizer_data)
-            return {'prediction':create_prediction(model=clf_model,X_test=tfidf_data)[0]}
-
-        elif option == 'SVM':
-            clf_model = pickle.load(open('model_folder/sgd_classifier.sav', 'rb'))
-            count_vectorizer = pickle.load(open('model_folder/count_vectorizer_svm.pickle', 'rb'))
-            tfidf_transformer = pickle.load(open('model_folder/tfidf_transformer_svm.pickle', 'rb'))
-            count_vectorizer_data = count_vectorizer.transform(article_body)
-            tfidf_data = tfidf_transformer.transform(count_vectorizer_data)
-            return {'prediction': create_prediction(model=clf_model,X_test=tfidf_data)[0]}
-        else:
-            clf_model = load('model_folder/xgboost_classifier.joblib')
-            count_vectorizer = load('model_folder/count_vectorizer_xgb.joblib')
-            tfidf_transformer = load('model_folder/tfidf_transformer_xgb.joblib')
-            count_vectorizer_data = count_vectorizer.transform(article_body)
-            tfidf_data = tfidf_transformer.transform(count_vectorizer_data)
-            return {'prediction': create_prediction(model=clf_model,X_test=tfidf_data)[0]}
-
-
-
-
-
-api.add_resource(ArticleInfo, '/get_article_info/<string:option>/<article_body>')
-"""
-
-
 
 app.run(port=5005,debug=True)
 

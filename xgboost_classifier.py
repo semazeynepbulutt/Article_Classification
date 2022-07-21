@@ -1,6 +1,5 @@
 import seaborn as sns
 import data_for_training
-#import pickle
 import pandas as pd
 from sklearn.metrics import classification_report,confusion_matrix
 from xgboost import XGBClassifier

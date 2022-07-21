@@ -1,10 +1,9 @@
 import pandas as pd
-from typing import List
 import seaborn as sns
 import get_data
 import matplotlib.pyplot as plt
 import re
-from wordcloud import WordCloud, STOPWORDS
+from wordcloud import WordCloud
 from collections import Counter
 
 pd.options.mode.chained_assignment = None
@@ -127,9 +126,6 @@ def most_common_words_total_top_50(df:pd.DataFrame) -> pd.DataFrame:
     top50word = sorted(c.items(), key=lambda item: item[1],reverse=True)[:50]
     words_total = pd.DataFrame(top50word,columns=['words','count'])
     return words_total
-
-def get_unique_word_by_most_common(text: str) -> List[str]:
-    pass
 
 def get_clean_data() -> pd.DataFrame: #for training and testing
     df = get_data_from_database()

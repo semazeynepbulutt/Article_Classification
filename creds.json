@@ -1,12 +1,12 @@
 {
   "type": "service_account",
-  "project_id": "ituveribilimisertifikasi",
-  "private_key_id": "1b33f7fc4f47e598603d9dabaa7994d7db4c6f3a",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC20JaNqYQ4P/ls\nHKWu6ehsyyCo6m+G6a+aahx6fOlgr7ml//VgVBdVeObf26JfUBUKCd43pUQ/Fdqf\nRlTTtjP87Vm299FNxRdmiIfUaQmqEGWl43a6i9hfK6n+CjSLyZZyFFJs2zUatL8B\nnS8oEE3ckDP9o4/feU9QBoo4y+swe+9YuYos3SdEztdHOIUfpMxaxp9uOWzwuMov\nb8WK5+LULBE0llDPy+QMiyLQ0Fdvwuj0+8KctRu3qf5ktIDIoETcv1kWOqsH8KEv\nRU3Rui4f3AgMZwxL9Cs1wnq/m90mZ/+2p9TGxVnir6s6yliwC+2D7fO+WTFG50AC\nXmmjI6FvAgMBAAECggEAE34yT3Cf1I+dvNVhJUFzswYFuX0l3zDTtJdT6gufptuV\n5Ali1J6izk5R79Svf5I+bA+ZTj2lBUUDRrBtIxXufS2hv0y1WKGHWTt9oDyC90tA\nS2vxoPqAW8WAHsJfz/fyvr9D+q90/h//reBgwtjaNIZ7xLPIB4Ab4OCRpHS54zVl\nrQiPxwnQKYiL/Ae0pC+l6xckakmq/PfY5eJ36NYToT1Wr8OKr42TQpOBm6/+fe01\nIq8xVlMmGL+8LbOtEIl3CMRw7C1JgLANDKDHFoVseFzKCN6ROwc1OV/WLfOYYoBY\nTf841Ri5lRnxm8yi2lYNYI58zB5ss7obhJniixS2YQKBgQDeX0vNeeRqNalhe+D8\nw22/l/sqctfnzkbmt9UI4ZT3lqtHS+kQIMuelBuKp6HQxsNeUROonS0CF9k9Zz6N\nYy4cbbyH/98tft1o4upiLq9P30gJmr5U4XAxNHewOxWkG+3hRzlwkH8LYD2b8/Yi\nUNezw5jF3NV9YkVQHWuv/E6OIwKBgQDSdecvvshpHhEus+hJWnIsdYfr6uR6Mbo1\nnGiOPBTFKmr1GM5HwCLlxrtY4u6OWzK3oYzO6mma36Nwopz5iwNkSRPAzJGAP09i\nCVIjfj4xa3ef3e2DC0Ae6TijCKK2QNDEFS6LU2Dg1UGabEKapAsPKPcNjByoPOQz\nDjhckLuGRQKBgGNkuvAL1JG4jI37HfQ8sdhaaTRvApwk8kH71yfSFJCZ8tK6VmEU\nF4846hqOlOBJh1en656JKm3uFPbCKA5wT1L7pbIwJyQhuXtBObxK26dayMsqNHqi\nDVChAAJwVlr09N2lxUHQBEkkakVDxTdPZSp/edCuxWn2u750eAbAQqh7AoGAXHHD\nqfpAZ8P4Qi5uQwJCknrRyHP2BiKfq3rXhlqnuO9n6d8KhQPFkG6ZznJn3Qn8HiMN\nCbp3xrqjPQ+AqjBAviVHUvHIm6+ze9miRcrnIKgW9Jb0BBLGCI3i/eIGLs4LpYW0\nWyi1riyeU2loXCrgXLlew4me8NtGVZLSeP5uEI0CgYAK9D9cjx3uOWkR9n5LdWW/\nuFG55MMpNXeXBXwq9E/7K636+QSNgeIFowdSxWFShbUQloK5PFBEz2ly8J1pm4xo\nBUF/T8+zed2GJ/I3ERSKoFc7070za8USpb5e2WICMQqR/pedG8da+cSWwq8qRj8E\nMA5qjPgzhAAWEMVN/+TxwA==\n-----END PRIVATE KEY-----\n",
-  "client_email": "ituveribilimisertifikas@ituveribilimisertifikasi.iam.gserviceaccount.com",
-  "client_id": "102255641038924126369",
+  "project_id": "",
+  "private_key_id": "",
+  "private_key": "",
+  "client_email": "",
+  "client_id": "",
   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
   "token_uri": "https://oauth2.googleapis.com/token",
   "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ituveribilimisertifikas%40ituveribilimisertifikasi.iam.gserviceaccount.com"
+  "client_x509_cert_url": ""
 }
